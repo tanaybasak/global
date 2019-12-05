@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-12-05 06:31:55">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>cicd update set 6</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>3528f5911b2d8094059a65b82d4bcb64</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 06:31:53</sys_created_on>
+<sys_id>dd98f5911b2d8094059a65b82d4bcb9c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 06:31:53</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_fix_814b5dc11b2d0094059a65b82d4bcbf2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;mynewscript&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[gs.log("Update new midserver new install");]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admTanoy&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-04 09:45:47&lt;/sys_created_on&gt;&lt;sys_id&gt;814b5dc11b2d0094059a65b82d4bcbf2&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;mynewscript&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_814b5dc11b2d0094059a65b82d4bcbf2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admTanoy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-05 06:31:22&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2090114292</payload_hash>
+<remote_update_set display_value="cicd update set 6">dd98f5911b2d8094059a65b82d4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 06:31:53</sys_created_on>
+<sys_id>d198f5911b2d8094059a65b82d4bcb9d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4c1843b0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 06:31:53</sys_updated_on>
+<table/>
+<target_name>mynewscript</target_name>
+<type>Fix Script</type>
+<update_domain>global</update_domain>
+<update_guid>3d7871d1722d80948f51ad46fca17d1a</update_guid>
+<update_guid_history>3d7871d1722d80948f51ad46fca17d1a:-2090114292,ce16b55d4ee980941e3dd7e45d5104a9:1887832398,724761ddf4698094372c1dae7c10ded8:-205126765,d31d1dc5e42d0094ff6a942f7fe8033c:1602995091,441c1145582d00943583301a113e81a3:-1373945624,4c6b59cd8ae90094eec386ced0c466ea:1431761768</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
