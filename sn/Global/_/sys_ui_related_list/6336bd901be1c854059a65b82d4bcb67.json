@@ -1,0 +1,22 @@
+{
+  "calculated_name": "Hardware - Default view",
+  "filter": null,
+  "name": "alm_hardware",
+  "order_by": null,
+  "position": null,
+  "related_list": null,
+  "sys_class_name": "sys_ui_related_list",
+  "sys_created_by": "lghori",
+  "sys_created_on": "2019-12-02 03:47:43",
+  "sys_id": "6336bd901be1c854059a65b82d4bcb67",
+  "sys_mod_count": 0,
+  "sys_name": "Hardware - Default view",
+  "sys_package": "b9ad32fd1bb133007456ecadee4bcb86",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_ui_related_alm_hardware_null",
+  "sys_updated_by": "lghori",
+  "sys_updated_on": "2019-12-02 03:47:43",
+  "view": "Default view",
+  "view_name": null
+}

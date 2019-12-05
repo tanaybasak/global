@@ -1,0 +1,31 @@
+{
+  "active": false,
+  "applies_extended": false,
+  "condition": null,
+  "description": null,
+  "field": "subcategory",
+  "global": true,
+  "isolate_script": true,
+  "messages": null,
+  "name": "Alert Info",
+  "order": null,
+  "script": {
+    "____see": "sn\\Global\\Client Script\\incident\\active_false\\Alert Info.js"
+  },
+  "sys_class_name": "sys_script_client",
+  "sys_created_by": "lghori",
+  "sys_created_on": "2019-11-29 14:00:55",
+  "sys_id": "fe54242f1b514454059a65b82d4bcb52",
+  "sys_mod_count": 3,
+  "sys_name": "Alert Info",
+  "sys_package": "global",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_script_client_fe54242f1b514454059a65b82d4bcb52",
+  "sys_updated_by": "lghori",
+  "sys_updated_on": "2019-11-29 14:09:46",
+  "table": "incident",
+  "type": "onChange",
+  "ui_type": 10,
+  "view": null
+}

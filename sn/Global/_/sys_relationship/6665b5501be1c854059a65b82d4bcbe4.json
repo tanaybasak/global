@@ -1,0 +1,27 @@
+{
+  "advanced": false,
+  "apply_to": null,
+  "basic_apply_to": "alm_hardware",
+  "basic_query_from": "alm_hardware",
+  "insert_callback": null,
+  "name": "Related Assets",
+  "query_from": null,
+  "query_with": {
+    "____see": "sn\\Global\\Relationship\\alm_hardware\\Related Assets\\query_with.js"
+  },
+  "reference_field": "assigned_to",
+  "related_list": null,
+  "simple_reference": false,
+  "sys_class_name": "sys_relationship",
+  "sys_created_by": "lghori",
+  "sys_created_on": "2019-12-02 03:47:02",
+  "sys_id": "6665b5501be1c854059a65b82d4bcbe4",
+  "sys_mod_count": 2,
+  "sys_name": "Related Assets",
+  "sys_package": "global",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_relationship_6665b5501be1c854059a65b82d4bcbe4",
+  "sys_updated_by": "lghori",
+  "sys_updated_on": "2019-12-02 03:49:44"
+}

@@ -1,0 +1,14 @@
+{
+  "filter": null,
+  "list_id": "6336bd901be1c854059a65b82d4bcb67",
+  "order_by": null,
+  "position": 0,
+  "related_list": "alm_asset.parent",
+  "sys_class_name": "sys_ui_related_list_entry",
+  "sys_created_by": "lghori",
+  "sys_created_on": "2019-12-02 03:47:43",
+  "sys_id": "ab36bd901be1c854059a65b82d4bcb68",
+  "sys_mod_count": 0,
+  "sys_updated_by": "lghori",
+  "sys_updated_on": "2019-12-02 03:47:43"
+}
