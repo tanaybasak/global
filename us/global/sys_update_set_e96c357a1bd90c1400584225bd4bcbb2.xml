@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-12-05 09:08:17">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>LG_POC_1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e96c357a1bd90c1400584225bd4bcbb2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>d06c52d51be1c094059a65b82d4bcbaf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_30ac3d7a1bd90c1400584225bd4bcb7f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;alm_hardware&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="alm_hardware"&gt;assigned_toVALCHANGES^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Attach PDF&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var s = new attachPDFAsset();
+    s.pdfFun(current.sys_id);
+    action.setRedirectURL(current);
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lghori&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-27 12:26:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;30ac3d7a1bd90c1400584225bd4bcb7f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Attach PDF&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_30ac3d7a1bd90c1400584225bd4bcb7f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lghori&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-27 12:54:38&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;u_roles/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=30ac3d7a1bd90c1400584225bd4bcb7f"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1618123612</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>106c52d51be1c094059a65b82d4bcbb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16eaced88190000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>Attach PDF</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>027302b6f31d0c1499cd0f4899b3c42f</update_guid>
+<update_guid_history>027302b6f31d0c1499cd0f4899b3c42f:-1618123612,b9adfdfa7ad90c148abdf25ba7fc4a06:1471573232,281d31b212d90c14d0c8b628cd2ce02e:364907720,100db9ba17d90c14b484fc4b21168f94:-27818218</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_d86b15cf1b5d73003e2820676e4bcb91</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+&lt;access&gt;package_private&lt;/access&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;api_name&gt;global.downloadforFulfiller&lt;/api_name&gt;
+&lt;caller_access/&gt;
+&lt;client_callable&gt;false&lt;/client_callable&gt;
+&lt;description/&gt;
+&lt;name&gt;downloadforFulfiller&lt;/name&gt;
+&lt;script&gt;&lt;![CDATA[var downloadforFulfiller = Class.create();
+downloadforFulfiller.prototype = {
+	initialize: function() {
+	},
+	pdfFun : function(sysId){
+
+		var body = "";
+		var fileName = "";
+		var costFields = "";
+		var timelineStartDate="";
+		var timelineEndDate="";
+		var engagementCode="";
+		var requestedFor="";
+		var assignedTo="";
+
+
+		var labour_cost = "";
+		var labour_cost_pc_hr = "";
+		var labour_cost_sub_total = "";
+		var ritm_no = "";
+
+		var total_cost = "";
+
+		var gr  = new GlideRecord("sc_req_item");
+		if(gr.get(sysId)){
+			body = "&lt;b&gt; Request type  : &lt;/b&gt;" +  gr.cat_item.getDisplayValue();
+			fileName = "Proposal "+gr.number +" " + gs.nowDateTime();
+			costFields = gr.variables.cost; // contains the json in [ { "name" : "njh", "pcs_hrs" : "78", "item_cost" : "78" }, { "name" : "k", "pcs_hrs" : "8  9", "item_cost" : "8" } ]  f ormat
+		//	gs.info( gr.variables.cost + " --- ");
+
+
+			labour_cost = 	gr.variables.labour_cost ;
+			
+			labour_cost_pc_hr = gr.variables.labour_cost_pc_hr ;
+			
+			
+			if( gr.variables.labour_cost)
+				labour_cost =  gr.variables.labour_cost + " EUR";
+			
+			
+			labour_cost_sub_total =  gr.variables.labour_cost_sub_total ;
+			
+			labour_cost_sub_total =  "" ;
+			if( gr.variables.labour_cost_sub_total)
+				labour_cost_sub_total = gr.variables.labour_cost_sub_total + " EUR";
+			
+			
+			
+			total_cost =  "" ;
+			if( gr.variables.total_cost)
+				total_cost = gr.variables.total_cost + " EUR";
+			ritm_no = gr.number;
+			engagementCode= gr.variables.engagement_code ;
+			//requestedFor=gr.variables.requested_for_default_field.getDisplayValue();
+			requestedFor=gr.variables.requested_for.getDisplayValue();
+			timelineStartDate = gr.variables.timeline_start_date;
+			if(timelineStartDate){
+				timelineStartDate = new GlideDateTime(timelineStartDate).getLocalDate();
+			}
+			timelineEndDate = gr.variables.timeline_stop_date;
+			if(timelineEndDate){
+				timelineEndDate = new GlideDateTime(timelineEndDate).getDate();
+				new GlideDateTime(timelineEndDate).getLocalDate();
+			}
+			assignedTo = gr.assigned_to.getDisplayValue();
+			//updated by Tanoy.
+
+
+		}
+
+		body = body  + "&lt;p&gt; &lt;/p&gt;";
+		body = body  + "&lt;p&gt;&lt;b&gt; Request number : &lt;/b&gt;" + ritm_no + "&lt;/p&gt;";
+		body = body  + "&lt;p&gt; &lt;b&gt;Enagement Code :&lt;/b&gt; " + engagementCode + "&lt;/p&gt;";
+		body = body  + "&lt;p&gt; &lt;b&gt;Requested By: &lt;/b&gt;" + requestedFor + "&lt;/p&gt;";
+		body = body  + "&lt;p&gt;&lt;b&gt; Assigned SA Team Member: &lt;/b&gt;" + assignedTo + "&lt;/p&gt;";
+		body = body  + "&lt;p&gt;&lt;b&gt; Timeline:&lt;/b&gt;&amp;nbsp;&amp;nbsp;From "+timelineStartDate+" "+" " + " " + "To "+ timelineEndDate+ "&lt;/p&gt;";
+		body = body  + "&lt;br&gt;";
+
+		costFields = JSON.parse(costFields);
+
+		for(var j = 0 ; j &lt; costFields.length; j++) {
+
+
+		}
+
+		body = body + "&lt;table&gt;&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt; &lt;th&gt;PCs/Hrs&lt;/th&gt; &lt;th&gt;Item Cost&lt;/th&gt; &lt;th&gt;Sub Total&lt;/th&gt;&lt;/tr&gt;";
+
+		for(var i = 0 ; i &lt; costFields.length; i++) {
+
+
+
+			var names = "";
+			if(costFields[i].name) {
+				names= costFields[i].name + "";
+			}
+
+
+			var pcs_hrs = "";
+			if(costFields[i].pcs_hrs) {
+				pcs_hrs= costFields[i].pcs_hrs + '';
+			}
+
+
+
+			var cost = "";
+			if(costFields[i].sub_total) {
+				cost= costFields[i].sub_total + ' EUR';
+			}
+
+			var item_cost = "";
+			if(costFields[i].item_cost) {
+				item_cost= costFields[i].item_cost + ' EUR';
+			}
+
+			body = body + "&lt;tr&gt;&lt;td&gt;" + names + "&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;" +pcs_hrs + "&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;" + item_cost+ "&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;" +cost + "&lt;/td&gt;&lt;/tr&gt;";
+		}
+
+		body = body  + "&lt;/table&gt;";
+
+
+
+		body = body + "&lt;table&gt;";
+		body = body + "&lt;tr&gt;&lt;td&gt;Labour Cost (€)&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;" + labour_cost_pc_hr + "&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;" + labour_cost  + "&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;" +  labour_cost_sub_total + "&lt;/td&gt;&lt;/tr&gt;";
+		body = body  + "&lt;/table&gt; &lt;br&gt;&lt;br&gt;";
+
+		body = body  + "&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;Total Cost: " + total_cost + "&lt;/b&gt;&lt;/p&gt;";
+
+
+		global.GeneratePDFInfra.generate("sc_req_item", sysId, "sc_req_item",sysId,body,fileName);
+	},
+	
+	pdfFunItFirewall : function(sysId){
+
+		var body = "";
+		var fileName = "Fields";
+		var costFields = "";
+
+		var gr  = new GlideRecord("sc_req_item");
+		if(gr.get(sysId)){
+			costFields = gr.variables.fields;
+		}
+
+		body = body + "&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Destination&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Protocol&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Port&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Business Reason&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;";
+		costFields = JSON.parse(costFields);
+		
+		if(costFields!="") //adding as per DCR August MR
+			{
+		
+		//	gs.info("ItFirewall -- " + costFields.length);
+		for(var i = 0 ; i &lt; costFields.length; i++) {
+
+			var protocol = costFields[i].protocol;
+			gs.log("@@COST for Firewall"+protocol);
+			
+			if(protocol == "tcp")
+				protocol = "TCP";
+			if(protocol == "udp")
+				protocol = "UDP";	
+
+			var business_reason = "";
+			if(costFields[i].business_reason)
+				business_reason= costFields[i].business_reason;
+
+			body = body + "&lt;tr&gt;&lt;td&gt;" +costFields[i].source + "&lt;/td&gt;&lt;td&gt;" +costFields[i].destination  + "&lt;/td&gt;&lt;td&gt;" +protocol+ "&lt;/td&gt;&lt;td&gt;" +costFields[i].port + "&lt;/td&gt;&lt;td&gt;" +business_reason+ "&lt;/td&gt;&lt;/tr&gt;";
+		}
+
+		body = body  + "&lt;/table&gt;";
+
+		global.global.GeneratePDFItFirewall.generate("sc_req_item", sysId, "sc_req_item",sysId,body,fileName);
+		
+			}
+	},
+	type: 'downloadforFulfiller'
+};]]&gt;&lt;/script&gt;
+&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;admtrinadh&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2019-05-13 08:27:27&lt;/sys_created_on&gt;
+&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+&lt;sys_id&gt;d86b15cf1b5d73003e2820676e4bcb91&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;127&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;downloadforFulfiller&lt;/sys_name&gt;
+&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_script_include_d86b15cf1b5d73003e2820676e4bcb91&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;ppalleed&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2019-10-17 14:18:10&lt;/sys_updated_on&gt;
+&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1856510279</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>1c6c52d51be1c094059a65b82d4bcbb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16eacd79b310000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table/>
+<target_name>downloadforFulfiller</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>9ffdf53e98d90c1435b3db99184b41f4</update_guid>
+<update_guid_history>9ffdf53e98d90c1435b3db99184b41f4:1856510279</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_3555e9c71b9d73003e2820676e4bcbef</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+&lt;access&gt;package_private&lt;/access&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;api_name&gt;global.GeneratePDFInfra&lt;/api_name&gt;
+&lt;caller_access/&gt;
+&lt;client_callable&gt;false&lt;/client_callable&gt;
+&lt;description/&gt;
+&lt;name&gt;GeneratePDFInfra&lt;/name&gt;
+&lt;script&gt;&lt;![CDATA[var GeneratePDFInfra = Class.create();
+
+ 
+
+/**
+
+* Utility to create a PDF for the form
+
+* @param table, table id, target table, target id
+
+*/
+
+GeneratePDFInfra.generate = function(name, sys_id, targetTable, targetId,body,filename) {//gs.addErrorMessage("started11111111111");
+
+var generalHRForm = new GeneratePDFInfra({
+
+                tableId : (sys_id) ? sys_id : null,
+
+                tableName : name,
+
+                targetTable : targetTable,
+
+                targetId : targetId,
+
+                generalDebug : null,
+
+                bodyofinvoice : body,
+
+                filename:filename,
+
+                mode : 'pdf'
+
+});
+
+//            gs.addErrorMessage("started2222222222222222");
+
+generalHRForm.start();
+
+generalHRForm.createPDF();
+
+ 
+
+};
+
+ 
+
+var generalHRForm = {
+
+                initialize : function() {
+
+                               
+
+                               
+
+                                global.GeneralForm.prototype.initialize.apply(this, arguments);
+
+                               
+
+                                var instance = gs.getProperty('glide.servlet.uri');
+
+                                this._getTemplateInfo(null, null, instance,this.bodyofinvoice);
+
+                },
+
+               
+
+               
+
+                _getTemplateSysId : function(HRCaseId){
+
+                                var gr = new GlideRecord(this.tableName);
+
+                                gr.get(this.tableId);
+
+                               
+
+                                if (this.tableName == hr.TABLE_CASE || this.tableName == hr.TABLE_CASE_WORKFORCE)
+
+                                                return gr.pdf_template + '';
+
+                                else
+
+                                                return gr.parent.pdf_template + '';
+
+                },
+
+               
+
+                _getTemplateInfo : function(templateTableName, templateSysId, instance,bodyofinvoice){
+
+                                this.body = this._parseBodyForEVL(bodyofinvoice, instance);
+
+                               
+
+                },
+
+                _setFileName : function() {
+
+                this.fileName= this.filename;
+
+                },
+
+                _parseBodyForEVL : function(docBody, instance){
+
+                                //var signature=gs.getMessage('&lt;img src="https://cdn.wccftech.com/wp-content/uploads/2017/02/Oreo-Two-Cookies.jpg" height="40px" /&gt;');
+
+                                var signature=gs.getMessage('&lt;img style="float:right;" src="https://static1.squarespace.com/static/568aeadbdc5cb4e02c0bea58/t/587e9f0fb3db2b428f6515ab/1486498737106/?format=1500w" height="40px" /&gt;');
+
+                               
+
+                                var parsedBody = docBody + '';
+
+                                parsedBody = parsedBody.replace(/\{\{image\}\}/gi, signature);                
+
+                                return parsedBody;
+
+                },
+
+               
+
+               
+
+               
+
+               
+
+                _setDocument : function() {
+
+                                if (this.setDocument) {
+
+                                                this.setDocument();
+
+                                } else {
+
+                                               
+
+                                                // This object allows us to control the properties for the Document,
+
+                                                // size, margins etc.
+
+                                                var pdfDoc = new global.GeneralPDF.Document(null, null, null, null, this.pageSize, this.headerImage);
+
+                                                //
+
+                                                // When possible all changes to the PDF Document objects
+
+                                                // should be done here, outside of the base object.
+
+                                                // Anything along the lines of properties on the PDF Document
+
+                                                // object.
+
+                                                //
+
+                                                // Set page size
+
+                                                // pdfDoc.setPageSize();
+
+                                                //
+
+                                                // Set rotation (landscape/portrait)
+
+                                                // pdfDoc.setRotation();
+
+                                                //
+
+                                                // Set author
+
+                                                // pdfDoc.setAuthor();
+
+                                                //
+
+                                                // Set margins
+
+                                                // pdfDoc.setMargins();
+
+                                               
+
+                                                // This object contains many options for creating PDFs in different ways.
+
+                                                this.document = new global.GeneralPDF(pdfDoc);
+
+                                               
+
+                                                // When possible all changes to the PDF Document object
+
+                                                // should be done here, outside of the base object.
+
+                                                //
+
+                                                // Examples include setting things here such as page break events,
+
+                                                // header, footer, styleSheets. Anything along the lines of
+
+                                                // writing the PDF file.
+
+                                                //
+
+                                                // Set page break events
+
+                                                //this.document.setPageBreakEvent();
+
+                                                //
+
+                                               
+
+                                                // set header, footer, footnote, header position, footer position, page size
+
+                                                this.document.setDocTempleInfo(this.headerImage, this.footerImage, this.footnote, this.headerPosition, this.footerPosition, this.pageSize);
+
+                                               
+
+                                                // Set iTextPdf CSS StyleSheet
+
+                                                // this.document.setStyleSheet();
+
+                                               
+
+                                                // Creates a new document open for writing then we will parse HTML
+
+                                                // and add it to the document. This allows us to control things such
+
+                                                // as
+
+                                                // page break based on a certain GeneralFormDemoElement type as one
+
+                                                // example.
+
+                                                // It also helps improve PDF creation performance because small
+
+                                                // blocks
+
+                                                // of HTML tables are added for each element in the form versus
+
+                                                // creating
+
+                                                // a single huge table and adding that to the document one time.
+
+                                                this.document.startHTMLParser();
+
+                                                //gs.addErrorMessage(this.body);
+
+                                                this.document.addHTML(this.body);
+
+                                               
+
+                                                this.debug.write();
+
+                                               
+
+                                                // clean up the draft document
+
+                                                this._cleanUpDraftDocument();
+
+                                }
+
+                },
+
+               
+
+               
+
+               
+
+                type : 'GeneratePDFBBO'
+
+};
+
+GeneratePDFInfra.prototype = Object.extendsObject(global.GeneralForm, generalHRForm);
+]]&gt;&lt;/script&gt;
+&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;admtrinadh&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2019-05-13 09:12:02&lt;/sys_created_on&gt;
+&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+&lt;sys_id&gt;3555e9c71b9d73003e2820676e4bcbef&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;GeneratePDFInfra&lt;/sys_name&gt;
+&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_script_include_3555e9c71b9d73003e2820676e4bcbef&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;admtrinadh&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2019-05-13 09:12:30&lt;/sys_updated_on&gt;
+&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1388920139</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>586c52d51be1c094059a65b82d4bcbb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16eacf2cb030000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table/>
+<target_name>GeneratePDFInfra</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>16c4427a181d0c143b45d9a53f51fd6e</update_guid>
+<update_guid_history>16c4427a181d0c143b45d9a53f51fd6e:1388920139</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_relationship_6665b5501be1c854059a65b82d4bcbe4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;alm_hardware&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;alm_hardware&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Related Assets&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+    current.addQuery('u_reference_asset',parent.sys_id);
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;assigned_to&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lghori&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-02 03:47:02&lt;/sys_created_on&gt;&lt;sys_id&gt;6665b5501be1c854059a65b82d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Related Assets&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_6665b5501be1c854059a65b82d4bcbe4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lghori&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-02 03:49:44&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6665b5501be1c854059a65b82d4bcbe4"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1921931086</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>5c6c52d51be1c094059a65b82d4bcbaf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ec4ba774b0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table/>
+<target_name>Related Assets</target_name>
+<type>Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>c9b635906ce1c854aa15dc9965c9e59b</update_guid>
+<update_guid_history>c9b635906ce1c854aa15dc9965c9e59b:1921931086,1186b590f9e1c85436e5ae33d0cc61bf:-2085607028,2516fd10f9e1c854c10fa7030cd7a9b7:719573029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_faeaf24c37f3100044e0bfc8bcbe5d9a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Hardware" section_id="faeaf24c37f3100044e0bfc8bcbe5d9a" sys_domain="global" table="alm_hardware" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>display_name</element><position>0</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>f88471dc1ba1c854059a65b82d4bcb9e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>708471dc1ba1c854059a65b82d4bcb9f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model_category</element><position>2</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>34847ddc1ba1c854059a65b82d4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model</element><position>3</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>b8847ddc1ba1c854059a65b82d4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>30847ddc1ba1c854059a65b82d4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ci</element><position>5</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>b4847ddc1ba1c854059a65b82d4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active_to</element><position>6</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>3c847ddc1ba1c854059a65b82d4bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_reference_asset</element><position>7</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>b0847ddc1ba1c854059a65b82d4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>quantity</element><position>8</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>38847ddc1ba1c854059a65b82d4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>9</position><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:40:10</sys_created_on><sys_id>bc847ddc1ba1c854059a65b82d4bcb0c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Hardware" display_value="Hardware" name="alm_hardware" sys_domain="global" view="Default view">faeaf24c37f3100044e0bfc8bcbe5d9a</sys_ui_section><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:40:10</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Hardware</caption><header>false</header><name>alm_hardware</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2012-01-21 19:43:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>faeaf24c37f3100044e0bfc8bcbe5d9a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware</sys_name><sys_overrides/><sys_package display_value="Asset Management" source="com.snc.asset_management">b9ad32fd1bb133007456ecadee4bcb86</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_faeaf24c37f3100044e0bfc8bcbe5d9a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2012-01-21 19:43:17</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1298675894</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>906c52d51be1c094059a65b82d4bcbb1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ec4b1b2360000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>Hardware</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>3c847ddc10a1c8541917b67fbb4c900e</update_guid>
+<update_guid_history>3c847ddc10a1c8541917b67fbb4c900e:-1298675894,3b34fd9cd9a1c854ebd114b666ad7fab:1032736334</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_29800a3e1bd90c1400584225bd4bcbe2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.attachPDFAsset&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;attachPDFAsset&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var attachPDFAsset = Class.create();
+attachPDFAsset.prototype = {
+	initialize: function() {
+	},
+	pdfFun : function(sysId){
+		
+		gs.addInfoMessage('inside');
+
+		var body = "";
+		var fileName = "hello";
+		var costFields = "";
+		var timelineStartDate="";
+		var timelineEndDate="";
+		var engagementCode="";
+		var requestedFor="";
+		var assignedTo="";
+
+
+		var labour_cost = "";
+		var labour_cost_pc_hr = "";
+		var labour_cost_sub_total = "";
+		var ritm_no = "";
+
+		var total_cost = "";
+
+		var gr  = new GlideRecord("alm_hardware");
+		if(gr.get(sysId)){
+			body = "&lt;b&gt; Asset tag  : &lt;/b&gt;" +  gr.asset_tag.getDisplayValue();
+			
+		}
+
+
+		global.GeneratePDFInfra.generate("alm_hardware", sysId, "alm_hardware",sysId,body,fileName);
+	},
+	
+	pdfFunItFirewall : function(sysId){
+
+		var body = "";
+		var fileName = "Fields";
+		var costFields = "";
+
+		var gr  = new GlideRecord("sc_req_item");
+		if(gr.get(sysId)){
+			costFields = gr.variables.fields;
+		}
+
+		body = body + "&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Destination&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Protocol&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Port&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;Business Reason&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;";
+		costFields = JSON.parse(costFields);
+		
+		if(costFields!="") //adding as per DCR August MR
+			{
+		
+		//	gs.info("ItFirewall -- " + costFields.length);
+		for(var i = 0 ; i &lt; costFields.length; i++) {
+
+			var protocol = costFields[i].protocol;
+			gs.log("@@COST for Firewall"+protocol);
+			
+			if(protocol == "tcp")
+				protocol = "TCP";
+			if(protocol == "udp")
+				protocol = "UDP";	
+
+			var business_reason = "";
+			if(costFields[i].business_reason)
+				business_reason= costFields[i].business_reason;
+
+			body = body + "&lt;tr&gt;&lt;td&gt;" +costFields[i].source + "&lt;/td&gt;&lt;td&gt;" +costFields[i].destination  + "&lt;/td&gt;&lt;td&gt;" +protocol+ "&lt;/td&gt;&lt;td&gt;" +costFields[i].port + "&lt;/td&gt;&lt;td&gt;" +business_reason+ "&lt;/td&gt;&lt;/tr&gt;";
+		}
+
+		body = body  + "&lt;/table&gt;";
+
+		global.global.GeneratePDFItFirewall.generate("sc_req_item", sysId, "sc_req_item",sysId,body,fileName);
+		
+			}
+	},
+	type: 'attachPDFAsset'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lghori&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-27 12:41:46&lt;/sys_created_on&gt;&lt;sys_id&gt;29800a3e1bd90c1400584225bd4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;attachPDFAsset&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_29800a3e1bd90c1400584225bd4bcbe2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lghori&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-27 12:54:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-976536796</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>946c52d51be1c094059a65b82d4bcbb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16eaced49160000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table/>
+<target_name>attachPDFAsset</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>4e6346769f1d0c143d1be4485ab10c12</update_guid>
+<update_guid_history>4e6346769f1d0c143d1be4485ab10c12:-976536796,c1f28e76551d0c1499a48ca7168b5e47:1972165760,e5800a3ea8d90c149e2f9c7334611fe5:1285750950</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_alm_hardware_u_reference_asset_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_reference_asset" label="Reference Asset" language="en" table="alm_hardware"><sys_documentation action="INSERT_OR_UPDATE"><element>u_reference_asset</element><help/><hint/><label>Reference Asset</label><language>en</language><name>alm_hardware</name><plural>Reference Assets</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:39:00</sys_created_on><sys_id>7734fd9c1ba1c854059a65b82d4bcbac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reference Asset</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_alm_hardware_u_reference_asset_en</sys_update_name><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:39:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>722782935</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>986c52d51be1c094059a65b82d4bcbaf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ec4b0a6290000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>Hardware.Reference Asset</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>0044fd9c5ca1c8544947b1108205ecc5</update_guid>
+<update_guid_history>0044fd9c5ca1c8544947b1108205ecc5:722782935</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_fe54242f1b514454059a65b82d4bcb52</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;subcategory&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Alert Info&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+	var message = 'Category team: ' + 'team name' + '\n' + 'Leader: ' + 'Leader Name' +'\n'
+	+'Back Up :'+'Back Up Name';
+
+    alert(message);
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lghori&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-29 14:00:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fe54242f1b514454059a65b82d4bcb52&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Alert Info&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fe54242f1b514454059a65b82d4bcb52&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lghori&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-29 14:09:46&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2048944495</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>d06c52d51be1c094059a65b82d4bcbb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16eb77f09620000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table>incident</table>
+<target_name>Alert Info</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>c2d72c2305914454c61e5b5c45440e76</update_guid>
+<update_guid_history>c2d72c2305914454c61e5b5c45440e76:2048944495,55b6a823ee91445486657c0a0bfadfe5:-803402148,cb1624ef2451445473e49ced64642799:678762633,e8d5602f48514454ef145b2385d7095f:-803402148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_alm_hardware_u_reference_asset</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_reference_asset" table="alm_hardware"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Reference Asset&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_reference_asset&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;alm_hardware&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="alm_hardware"&gt;alm_hardware&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lghori&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-02 03:39:00&lt;/sys_created_on&gt;&lt;sys_id&gt;ca04799c1ba1c854059a65b82d4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reference Asset&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_alm_hardware_u_reference_asset&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lghori&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-02 03:39:00&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1713759006</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>d46c52d51be1c094059a65b82d4bcbaf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ec4b0a5fc0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>Hardware.Reference Asset</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0844fd9c7da1c854950552b8e263a5c3</update_guid>
+<update_guid_history>0844fd9c7da1c854950552b8e263a5c3:1713759006</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_alm_hardware_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="alm_hardware" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Hardware - Default view" name="alm_hardware" related_list="NULL" sys_domain="global" view="Default view">6336bd901be1c854059a65b82d4bcb67</list_id><order_by/><position>0</position><related_list>alm_asset.parent</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:47:43</sys_created_on><sys_id>ab36bd901be1c854059a65b82d4bcb68</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:47:43</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Hardware - Default view" name="alm_hardware" related_list="NULL" sys_domain="global" view="Default view">6336bd901be1c854059a65b82d4bcb67</list_id><order_by/><position>1</position><related_list>fm_expense_line.asset</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:47:43</sys_created_on><sys_id>6736bd901be1c854059a65b82d4bcb69</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:47:43</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Hardware - Default view" name="alm_hardware" related_list="NULL" sys_domain="global" view="Default view">6336bd901be1c854059a65b82d4bcb67</list_id><order_by/><position>2</position><related_list>REL:6665b5501be1c854059a65b82d4bcbe4</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:47:43</sys_created_on><sys_id>eb36bd901be1c854059a65b82d4bcb69</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:47:43</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Hardware - Default view</calculated_name><filter/><name>alm_hardware</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>lghori</sys_created_by><sys_created_on>2019-12-02 03:47:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6336bd901be1c854059a65b82d4bcb67</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware - Default view</sys_name><sys_package display_value="Asset Management" source="com.snc.asset_management">b9ad32fd1bb133007456ecadee4bcb86</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_alm_hardware_null</sys_update_name><sys_updated_by>lghori</sys_updated_by><sys_updated_on>2019-12-02 03:47:43</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>-88227650</payload_hash>
+<remote_update_set display_value="LG_POC_1">d06c52d51be1c094059a65b82d4bcbaf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 09:08:17</sys_created_on>
+<sys_id>dc6c52d51be1c094059a65b82d4bcbb0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ec4b89eb10000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 09:08:17</sys_updated_on>
+<table>alm_hardware</table>
+<target_name>Hardware</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>6336bd90b1e1c85488e798e137972b6b</update_guid>
+<update_guid_history>6336bd90b1e1c85488e798e137972b6b:-88227650,2f3631509ce1c854c15fbe26be4d901d:-2069168521</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+</unload>
