@@ -1,0 +1,15 @@
+{
+  "sys_class_name": "sys_ui_action_view",
+  "sys_created_by": "tanpal",
+  "sys_created_on": "2019-11-25 13:07:21",
+  "sys_id": "cd33f7cedb9d4014654ffd961d9619e0",
+  "sys_mod_count": 1,
+  "sys_name": "Save.brazil",
+  "sys_package": "global",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_ui_action_view_cd33f7cedb9d4014654ffd961d9619e0",
+  "sys_updated_by": "nmyana",
+  "sys_updated_on": "2019-12-05 06:21:27",
+  "visibility": "include"
+}

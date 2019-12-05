@@ -1,0 +1,15 @@
+{
+  "sys_class_name": "sys_ui_action_view",
+  "sys_created_by": "nmyana",
+  "sys_created_on": "2019-12-05 06:23:00",
+  "sys_id": "5786b99d1be98094059a65b82d4bcb00",
+  "sys_mod_count": 0,
+  "sys_name": "Save.Self Service",
+  "sys_package": "global",
+  "sys_policy": null,
+  "sys_scope": "global",
+  "sys_update_name": "sys_ui_action_view_5786b99d1be98094059a65b82d4bcb00",
+  "sys_updated_by": "nmyana",
+  "sys_updated_on": "2019-12-05 06:23:00",
+  "visibility": "include"
+}
