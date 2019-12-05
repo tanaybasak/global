@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-12-05 08:56:37">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Adding save button on Inc and RITM and Task form</description>
+<inserted/>
+<name>NM_Global_MF113_Save button_V1(AME)</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1134355d1ba98094059a65b82d4bcb7c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>edb9dad91bad4c5400584225bd4bcb72</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_e866f19d1be98094059a65b82d4bcb98</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:22:16</sys_created_on><sys_id>e866f19d1be98094059a65b82d4bcb98</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.latco</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="latco" name="latco_view">40f74951db82fb00bac127360596199d</sys_ui_view><sys_update_name>sys_ui_action_view_e866f19d1be98094059a65b82d4bcb98</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:22:16</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-1893953500</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>21b9961d1bad4c5400584225bd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b92e170000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>e066f19d58e9809445e2913ae2a88a9a</update_guid>
+<update_guid_history>e066f19d58e9809445e2913ae2a88a9a:-1893953500</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_9cb675dd1be98094059a65b82d4bcb52</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:23:37</sys_created_on><sys_id>9cb675dd1be98094059a65b82d4bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Workspace</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Workspace" name="workspace">18bdb6fd1bb133007456ecadee4bcb96</sys_ui_view><sys_update_name>sys_ui_action_view_9cb675dd1be98094059a65b82d4bcb52</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:23:37</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1560818750</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>25b9961d1bad4c5400584225bd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4ba6c620000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>94b675ddfee980942be530c194bca554</update_guid>
+<update_guid_history>94b675ddfee980942be530c194bca554:1560818750</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_7b46399d1be98094059a65b82d4bcb3d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:21:57</sys_created_on><sys_id>7b46399d1be98094059a65b82d4bcb3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Default</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Default" name="default">30174876cb811200aa871831794c9cc4</sys_ui_view><sys_update_name>sys_ui_action_view_7b46399d1be98094059a65b82d4bcb3d</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:21:57</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>530715559</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>29b9961d1bad4c5400584225bd4bcb25</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b8e4840000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>7346399d01e98094d5ce36cd69a8953f</update_guid>
+<update_guid_history>7346399d01e98094d5ce36cd69a8953f:530715559</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_2f36795d1be98094059a65b82d4bcb80</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:21:39</sys_created_on><sys_id>2f36795d1be98094059a65b82d4bcb80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Cxs_popup</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Cxs_popup" name="cxs_popup">9769b79653a823004247ddeeff7b12fe</sys_ui_view><sys_update_name>sys_ui_action_view_2f36795d1be98094059a65b82d4bcb80</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:21:39</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1842015863</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>2db9961d1bad4c5400584225bd4bcb24</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b89fb20000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>2f36799d22e980943ec74dd6a22bdcfa</update_guid>
+<update_guid_history>2f36799d22e980943ec74dd6a22bdcfa:1842015863</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_9ca631dd1be98094059a65b82d4bcb05</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:23:21</sys_created_on><sys_id>9ca631dd1be98094059a65b82d4bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Service Workspace</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Service Workspace" name="service_workspace">b796dc9673d033004030e67bcaf6a7d8</sys_ui_view><sys_update_name>sys_ui_action_view_9ca631dd1be98094059a65b82d4bcb05</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:23:21</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>2040127401</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>61b9961d1bad4c5400584225bd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4ba2c170000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>94a631dda1e98094179aea4bee993e07</update_guid>
+<update_guid_history>94a631dda1e98094179aea4bee993e07:2040127401</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_5786b99d1be98094059a65b82d4bcb00</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:23:00</sys_created_on><sys_id>5786b99d1be98094059a65b82d4bcb00</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Self Service</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Self Service" name="ess">434a32711b3133007456ecadee4bcba4</sys_ui_view><sys_update_name>sys_ui_action_view_5786b99d1be98094059a65b82d4bcb00</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:23:00</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1506355701</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>65b9961d1bad4c5400584225bd4bcb25</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b9db3a0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>5f86b99d06e98094222ad2b058084401</update_guid>
+<update_guid_history>5f86b99d06e98094222ad2b058084401:1506355701</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_2a76f59d1be98094059a65b82d4bcb53</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:22:41</sys_created_on><sys_id>2a76f59d1be98094059a65b82d4bcb53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Mobile</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Mobile" name="Mobile">2f4a72711b3133007456ecadee4bcb8a</sys_ui_view><sys_update_name>sys_ui_action_view_2a76f59d1be98094059a65b82d4bcb53</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:22:41</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-68727275</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>69b9961d1bad4c5400584225bd4bcb24</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b98f9e0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>2276f59dcee98094d46af8ae5bcd7855</update_guid>
+<update_guid_history>2276f59dcee98094d46af8ae5bcd7855:-68727275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_da567d9d1be98094059a65b82d4bcb6e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:22:07</sys_created_on><sys_id>da567d9d1be98094059a65b82d4bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Indicators Panel</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Indicators Panel" name="indicators_panel">40f2aaf1c320020039a3553a81d3ae84</sys_ui_view><sys_update_name>sys_ui_action_view_da567d9d1be98094059a65b82d4bcb6e</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:22:07</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-1546420693</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>6db9961d1bad4c5400584225bd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b90abb0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>d2567d9d7ae980944b9b908c0711a970</update_guid>
+<update_guid_history>d2567d9d7ae980944b9b908c0711a970:-1546420693</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_4586f19d1be98094059a65b82d4bcb0d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:22:50</sys_created_on><sys_id>4586f19d1be98094059a65b82d4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Password</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Password" name="ess_ticket_password">7964e9820a0a0b8c00256c8a79579393</sys_ui_view><sys_update_name>sys_ui_action_view_4586f19d1be98094059a65b82d4bcb0d</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:22:50</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1714437423</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>a1b9961d1bad4c5400584225bd4bcb25</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b9b5f70000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>4d86f19d8fe980943bd46ba79f592f0e</update_guid>
+<update_guid_history>4d86f19d8fe980943bd46ba79f592f0e:1714437423</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_2876f19d1be98094059a65b82d4bcb9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:22:33</sys_created_on><sys_id>2876f19d1be98094059a65b82d4bcb9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Metrics</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Metrics" name="Metrics">412795810a25810200b1caed39d4d16e</sys_ui_view><sys_update_name>sys_ui_action_view_2876f19d1be98094059a65b82d4bcb9c</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:22:33</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1670336752</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>a1b9dad91bad4c5400584225bd4bcb74</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b970df0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>e87631ddb9e98094655f69485b7c7eaf</update_guid>
+<update_guid_history>e87631ddb9e98094655f69485b7c7eaf:1670336752</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_f146799d1be98094059a65b82d4bcb1c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:21:48</sys_created_on><sys_id>f146799d1be98094059a65b82d4bcb1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Default view</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Default view" name="NULL">Default view</sys_ui_view><sys_update_name>sys_ui_action_view_f146799d1be98094059a65b82d4bcb1c</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:21:48</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-626692446</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>a5b9961d1bad4c5400584225bd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b8c4090000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>f946799d56e98094083b847e359ea11d</update_guid>
+<update_guid_history>f946799d56e98094083b847e359ea11d:-626692446</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_cd33f7cedb9d4014654ffd961d9619e0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>tanpal</sys_created_by><sys_created_on>2019-11-25 13:07:21</sys_created_on><sys_id>cd33f7cedb9d4014654ffd961d9619e0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Save.brazil</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="brazil" name="br_view">4d48de19dbed3700fb9541a405961987</sys_ui_view><sys_update_name>sys_ui_action_view_cd33f7cedb9d4014654ffd961d9619e0</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:21:27</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1034708512</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>a9b9961d1bad4c5400584225bd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b86ed00000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>2836399d1ce98094887f2b594562b193</update_guid>
+<update_guid_history>2836399d1ce98094887f2b594562b193:1034708512,afc4bb4a8edd40143b96ab781071d96d:-434861102,c533f7cef59d4014ed394418ffb5f6e3:-434861102</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_96a6f59d1be98094059a65b82d4bcb59</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:23:29</sys_created_on><sys_id>96a6f59d1be98094059a65b82d4bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.VTB</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="VTB" name="vtb">0783336247231100ba13a5554ee490e7</sys_ui_view><sys_update_name>sys_ui_action_view_96a6f59d1be98094059a65b82d4bcb59</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:23:29</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-1210175981</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>adb9961d1bad4c5400584225bd4bcb25</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4ba4cae0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>96a639ddb5e98094cc74c02cf8c46d11</update_guid>
+<update_guid_history>96a639ddb5e98094cc74c02cf8c46d11:-1210175981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_ea66f59d1be98094059a65b82d4bcb4f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:22:24</sys_created_on><sys_id>ea66f59d1be98094059a65b82d4bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Major incidents</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Major incidents" name="Major Incidents">b581af400f220000b12e6903cfe01246</sys_ui_view><sys_update_name>sys_ui_action_view_ea66f59d1be98094059a65b82d4bcb4f</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:22:24</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>667964545</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>e1b9961d1bad4c5400584225bd4bcb27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b94f670000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>e266f59d03e980943f645411c3c74a51</update_guid>
+<update_guid_history>e266f59d03e980943f645411c3c74a51:667964545</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_bc07f59d1be98094059a65b82d4bcbc9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:25:01</sys_created_on><sys_id>bc07f59d1be98094059a65b82d4bcbc9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.User Portal</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="User Portal" name="User_Portal">e0a430a4679832007f4eff5617415a2d</sys_ui_view><sys_update_name>sys_ui_action_view_bc07f59d1be98094059a65b82d4bcbc9</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:25:01</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1900174920</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>e5b9961d1bad4c5400584225bd4bcb26</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4bbb2f20000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>3807b511082d8094e036f3820ef22503</update_guid>
+<update_guid_history>3807b511082d8094e036f3820ef22503:1900174920</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_47fd7f4dc0a8000600a552278b5232ab</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;sysverb_update_and_stay&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments&gt;Saves an existing record and redirects back to current screen (context version)&lt;/comments&gt;&lt;condition&gt;!(current.isNewRecord() &amp;amp;&amp;amp; !current.canCreate()) &amp;amp;&amp;amp; current.canWrite()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint&gt;Save record and remain here&lt;/hint&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Save&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;0&lt;/order&gt;&lt;script&gt;&lt;![CDATA[action.setRedirectURL(current);
+current.update();
+if (! current.isActionAborted())
+    action.setRedirectURL(current);
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;glide.maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2008-02-23 20:30:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;47fd7f4dc0a8000600a552278b5232ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;Save&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="System (glidesoft)" source="glidesoft"&gt;b04a3e311b3133007456ecadee4bcbe7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_47fd7f4dc0a8000600a552278b5232ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nmyana&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-05 06:20:59&lt;/sys_updated_on&gt;&lt;table&gt;global&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1518513162</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>e5b9dad91bad4c5400584225bd4bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4b804d70000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table>global</table>
+<target_name>Save</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>f916359d7ae9809483ad98d52d864535</update_guid>
+<update_guid_history>f916359d7ae9809483ad98d52d864535:-1518513162,f516359d3fe98094325d40150118d833:-63040055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_93e67ddd1be98094059a65b82d4bcb8c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:24:38</sys_created_on><sys_id>93e67ddd1be98094059a65b82d4bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.portal_requests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="portal_requests" name="portal_requests">f27982d50f022f001624c7dce1050e7b</sys_ui_view><sys_update_name>sys_ui_action_view_93e67ddd1be98094059a65b82d4bcb8c</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:24:38</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>1525333488</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>e9b9961d1bad4c5400584225bd4bcb25</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4bb59c70000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>9be67ddde7e980946848c2e0089c2c8d</update_guid>
+<update_guid_history>9be67ddde7e980946848c2e0089c2c8d:1525333488</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_3596b59d1be98094059a65b82d4bcb3c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:23:10</sys_created_on><sys_id>3596b59d1be98094059a65b82d4bcb3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Service Portal</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</sys_ui_view><sys_update_name>sys_ui_action_view_3596b59d1be98094059a65b82d4bcb3c</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:23:10</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-934905660</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>edb9961d1bad4c5400584225bd4bcb24</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4ba024e0000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>f19675dd0de98094841a7e58ca709a0f</update_guid>
+<update_guid_history>f19675dd0de98094841a7e58ca709a0f:-934905660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_view_1ce6f5dd1be98094059a65b82d4bcba4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>nmyana</sys_created_by><sys_created_on>2019-12-05 06:24:26</sys_created_on><sys_id>1ce6f5dd1be98094059a65b82d4bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Save.Catalog</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_ui_action display_value="Save">47fd7f4dc0a8000600a552278b5232ab</sys_ui_action><sys_ui_view display_value="Catalog" name="catalog">7966c6b60a0a0b8c0073a7efb40effc2</sys_ui_view><sys_update_name>sys_ui_action_view_1ce6f5dd1be98094059a65b82d4bcba4</sys_update_name><sys_updated_by>nmyana</sys_updated_by><sys_updated_on>2019-12-05 06:24:26</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+<payload_hash>-684405427</payload_hash>
+<remote_update_set display_value="NM_Global_MF113_Save button_V1(AME)">edb9dad91bad4c5400584225bd4bcb72</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admTanoy</sys_created_by>
+<sys_created_on>2019-12-05 08:56:37</sys_created_on>
+<sys_id>edb9dad91bad4c5400584225bd4bcb73</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16ed4bb2c500000001</sys_recorded_at>
+<sys_updated_by>admTanoy</sys_updated_by>
+<sys_updated_on>2019-12-05 08:56:37</sys_updated_on>
+<table/>
+<target_name>include</target_name>
+<type>UI View Action</type>
+<update_domain>global</update_domain>
+<update_guid>14e6f5dd4ce9809455d2ecaa259137a6</update_guid>
+<update_guid_history>14e6f5dd4ce9809455d2ecaa259137a6:-684405427</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
